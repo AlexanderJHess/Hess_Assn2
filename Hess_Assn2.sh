@@ -23,3 +23,7 @@ echo "rm sorted.txt" >> childscript.sh
 
 #execute child script
 ./childscript.sh
+
+
+#Child script is an intermediate file, so
+rm childscript.sh
